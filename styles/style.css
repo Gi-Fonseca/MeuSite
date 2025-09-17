@@ -1,0 +1,21 @@
+body{
+    background-color:#c7fffe;
+    /*background-image: url(../sapo_css.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color:#FF9E9;
+   */
+}
+h1{
+    background-color:#303633;
+    color:#EEF0EB;
+}
+h2{
+    color:#343a37;
+}
+
+p{
+    background-image: url(../sapo_css.gif);
+
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #f4f4f4;
+}
+h1{
+    background-image: url(../Midia/teclado_css.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #ffffff;
+}
+p{
+    color: #333333;
+}
+
+img{
+    width: 450px;
+}
