@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.caixa{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.menu-principal ul{
+    list-style: none;
+    background-color: #333;
+    text-align: center; /*Centraliza*/
+}
+
+.menu-principal li{
+    display: inline-block;
+    position: relative;
+}
+.menu-principal li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.menu-principal li a:hover{
+    background-color: #555;
+}
+
+/*Submenu*/
+.menu-principal ul ul{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #333;
+}
+
+.menu-principal li:hover > ul{
+    display: block;
+}
+
+.menu-principal ul ul li {
+  display: block; 
+  width: 100%;
+}
