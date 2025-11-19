@@ -1,0 +1,108 @@
+body{
+    font-family: 'Roboto', arial,;
+}
+
+
+.classe_link{
+    font-family: "Roboto";
+}
+
+a:link{
+    color:brown
+}
+
+a:visited{
+    color: #7fff00; 
+}
+
+a:hover{
+    color: #0095ff;
+}
+
+a:active{
+    color: #ff1493;
+}
+
+#imagem-post {
+    width: 40%;
+    background-color: #ff0000;
+}
+
+#sapo{
+    width: 500%;
+    background-color: bisque;
+}
+div > img{
+    max-width: 100%;
+    border-radius:30%;
+    box-shadow: 50px 30px 200px rgb(91, 0, 0);
+    opacity: q;
+}
+
+ul {
+
+list-style-type: none; /* Remove os marcadores padrão */
+
+padding-left: 0;
+
+}
+
+ul li {
+
+padding: 0.5rem;
+background-color: #7fff00;
+border-bottom: 1px solid #ff0000;
+
+/* Linha separadora entre os itens */
+
+}
+
+ol {
+
+list-style-type: decimal-leading-zero; /* 01, 02, 03... */
+
+padding-left: 2rem;
+
+}
+table {
+
+width: 100%;
+
+border-collapse: collapse;
+
+margin-top: 1.5rem;
+
+}
+
+th, td {
+
+padding: 0.75rem; /* Usa rem para espaçamento */
+
+text-align: left;
+
+border-bottom: 1px solid #ff0000;
+
+}
+
+th {
+
+background-color: #ffffff;
+
+font-weight: bold;
+
+}
+th {
+
+background-color: #f2f2f2;
+
+font-weight: bold;
+
+}
+
+/* Adicione esta regra ao CSS da tabela anterior */
+
+tbody tr:nth-child(even) {
+
+background-color: #f9f9f9; /* Um cinza muito claro para as linhas pares */
+
+}

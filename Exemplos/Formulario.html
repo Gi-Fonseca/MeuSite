@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste formulario</title>
+</head>
+<body>
+    <form action="" method="">
+        <p>
+            <fieldset>
+                <legend>Informações de Login</legend>
+                <label for="nome"> Nome:</label>
+                <input type="text" id="nome" required minlength="8">
+                
+                        </p>
+                
+                        <p>
+                <label for="password"> Senha:</label>
+                <input type="password" id="password" required>
+                
+                        </p>
+                
+                        <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                        </p>
+                
+                        <p>
+                <label for="Idade">Idade:</label>
+                <input type="number" id="number" required max="3">
+                
+                        </p>
+                <p><label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" required minlength="8"></p>
+                
+                        <p>
+                <label for="Data de nascimento">Data de nascimento:</label>
+                <input type="date" id="Data_de_nascimento">
+                
+                        </p>
+
+
+
+            <p> Em que periodo você nasceu?</p>
+            <p>
+                <input type="radio" id="manha" name="periodo" value="manha">
+                <label for="manha">Manhã</label>
+            
+            </p>
+            <p>
+                <input type="radio" id="tarde" name="periodo" value="tarde">
+                <label for="tarde">Tarde</label>
+            </p>
+            <p>
+                <input type="radio" id="noite" name="periodo" value="noite">
+                <label for="noite">Noite</label>
+            
+            </p>
+            </fieldset>
+
+        <fieldset>
+            <legend> Tecnologias</legend>
+            <p> Quais linguagens você mais gosta?</p>
+            <p>
+                <input type="checkbox" id="html" name="Tecnologias" value="html">
+                <label for="HTML"> HTML</label>
+            
+            </p>
+            <p>
+                <input type="checkbox" id="css" name="Tecnologias" value="css">
+                <label for="CSS"> CSS</label>
+            </p>
+            <p>
+                <input type="checkbox" id="JS" name="Tecnologias" value="JS">
+                <label for="JS"> Java Script</label>
+            
+            </p>
+        </fieldset>
+
+        <p>
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+            <option value="">Selecione...</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            </select>
+            
+        </p>
+        <button type="submit">Enviar Cadastro</button>
+        <button type="reset">Limpar Tudo</button>
+        <p>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="avatar">Foto de Perfil:</label>
+                <input type="file" id="avatar" name="avatar">
+                <button type="submit">Enviar Foto</button>
+            </form>
+        </p>
+    </form>
+</body>
+</html>

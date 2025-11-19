@@ -19,3 +19,41 @@ p{
     background-image: url(../sapo_css.gif);
 
 }
+table{
+    border: 2px solid black;
+    width: 150px;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Midia/Keyboard\ Axolotl\ GIF.gif);
+}
+
+td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+th{
+    padding: 5px;
+    border: 1px solid black;
+    background-color:#9ceafa;
+}
+
+tr{
+    padding: 5px;
+    border: 10px solid black;
+    background-color:#9ceafa;
+}
+div{
+    /* Mexer apenas na div pai */
+ border: 1px solid black;
+}
+div>div{
+ border: 2px solid #000000;
+}
+
+div > p {
+    color: rgb(255, 225, 0);
+}
+
+
