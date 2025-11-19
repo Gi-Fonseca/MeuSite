@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+body{
+    background-color: #fdd584;
+}
+.site-header,
+.site-footer {
+  background-color: #ffaa00;
+  color: rgb(54, 35, 0);
+  text-align: center;
+  padding: 20px;
+}
+.site-nav {
+  background-color: #b47800;
+  padding: 10px;
+}
+.site-nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.site-nav a {
+  color: rgb(255, 236, 184);
+  text-decoration: none;
+}
+
+/* O Pulo do Gato - Layout com POSITION */
+.content-wrapper {
+  position: relative; /* O pai é a âncora */
+  /* Deixa espaço à direita para a barra lateral */
+  padding-right: 250px;
+}
+.main-content {
+  padding: 20px;
+  width: 100%; /* Ocupa o espaço deixado pelo padding */
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px; /* Largura fixa para o aside */
+  height: 100%; /* Ocupa 100% da altura do pai */
+  padding: 20px;
+  background-color: #fff5bd;
+}
+
+img{
+    width: 250px;
+}

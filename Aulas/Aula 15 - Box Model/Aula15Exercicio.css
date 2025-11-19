@@ -27,7 +27,7 @@
 
 .menu-principal li{
     display: inline-block;
-    position: relative;
+    position: relative; /*Vamos ver na aula 16*/
 }
 .menu-principal li a{
     display: block;
